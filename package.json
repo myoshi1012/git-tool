@@ -1,0 +1,17 @@
+{
+  "name": "knight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git:clone": "node ./git/clone.js",
+    "git:pull": "node ./git/pull.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodegit": "^0.26.2",
+    "simple-git": "^1.126.0"
+  }
+}
